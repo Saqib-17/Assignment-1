@@ -11,7 +11,7 @@ body{
 .banner{
     width: 1440px;
     height: 652px;
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url("../assets/Hero-bg.png");
     background-size: cover;
     margin: 0 auto;
     display: flex;
