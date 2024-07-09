@@ -7,6 +7,40 @@ body{
     font-family: "Azeret Mono", monospace;
 
 }
+/* shared */
+.head1{
+    text-align: center;
+    color:#0D1321;
+    font-weight: 800;
+    font-size: 32px;
+}
+.para{
+    margin: 24px 72px;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    margin-right:9px ;
+}
+.head2{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color:#0D1321;
+    margin: 24px 72px;
+    margin-right:87px ;
+}
+.card{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 98px;
+    padding: 10.5px;
+   
+}
+.btn{
+    margin-top: 32px;
+    margin-left: 70px ;
+}
 /* Banner starts here */
 .banner{
     width: 1440px;
@@ -39,12 +73,7 @@ body{
     margin-top: 32px;
     color: #0D1321;
 }
-.banner p{
-    margin: 24px 72px;
-    color: #0D1321;
-    font-size: 16px;
-    font-weight: normal;
-}
+
 .lowerbanner button{
     
     padding:21px 24px;
@@ -56,4 +85,36 @@ body{
     border-radius: 8px;
 
     
+}
+/* why web section */
+.sec01{
+    margin: 80px 97px;
+    padding: 48px;
+    
+    
+}
+.para0{
+    text-align: left;
+}
+.description{
+    width:477px ;
+    height:219px ;
+}
+.sec-btn{
+    font-size: 20px;
+    font-weight: normal;
+    padding:12px 20px;
+    background-color: white;
+}
+.card2{
+    margin: 48px;
+    padding: 10.5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.description2{
+    width:477px ;
+    height:219px;
+    text-align: left;
 }
