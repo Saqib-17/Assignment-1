@@ -90,6 +90,9 @@ body{
 .sec01{
     margin: 80px 97px;
     padding: 48px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     
     
 }
@@ -118,3 +121,38 @@ body{
     height:219px;
     text-align: left;
 }
+.sec01-des{
+    text-align: center;
+    margin: 24px 47px 48px 24px;
+    /* width: 852px;
+    height: 52px; */
+}
+/* Inspiration section */
+.vid{
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    margin-top: 48px;
+}
+iframe{
+    border-radius: 16px;
+}
+.Inspiration{
+    text-align: center;
+}
+.Inspiration h1{
+    margin-bottom: 24px;
+}
+.Inspiration {
+    margin-bottom: 48px;
+}
+/* target section */
+.tsec{
+    border: 10px solid red;
+    margin: 111px 150px 49px;
+}
+.text-allign{
+    text-align: center;
+}
+
+
