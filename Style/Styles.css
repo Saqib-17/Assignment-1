@@ -50,7 +50,8 @@ body{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;   
+    justify-content: center;  
+    margin-top: 131px; 
 }
 .herobg{
     width: 240px;
@@ -207,4 +208,66 @@ a{
 .anchor{
    margin-top: 10px;
 }
+/* Support Section */
+.sup{
+    
+    
+    background-image: url("../assets/handshake.jpg");
+    background-color: rgba(0, 0, 0, 0.498);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    width: 1280px;
+    height: 313px;   
+    margin: 0px auto;
+    border-radius: 16px;
+    margin-bottom: 100px;
+    display: flex;
 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sup h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+.sup p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+.help-btn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+.feed{
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+    width: 533px;
+    height: 50px;
+  
+}
+.sup button {
+    padding:20px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    width: 120px;
+    height: 57px;
+    margin-top: 24px;
+   
+}
