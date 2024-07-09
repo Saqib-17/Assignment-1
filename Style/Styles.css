@@ -86,7 +86,9 @@ body{
 
     
 }
+
 /* why web section */
+
 .sec01{
     margin: 80px 97px;
     padding: 48px;
@@ -123,11 +125,13 @@ body{
 }
 .sec01-des{
     text-align: center;
-    margin: 24px 47px 48px 24px;
-    /* width: 852px;
-    height: 52px; */
+    margin: 0px 47px 48px 24px;
+    padding: 50px;
+    
 }
+
 /* Inspiration section */
+
 .vid{
     display: flex;
     justify-content: center;
@@ -146,13 +150,61 @@ iframe{
 .Inspiration {
     margin-bottom: 48px;
 }
+
 /* target section */
+
 .tsec{
-    border: 10px solid red;
+    border: none;
     margin: 111px 150px 49px;
+    padding: 100px;
 }
-.text-allign{
+.text-align{
     text-align: center;
 }
+.tar-lower-sec{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.html-containter{
+    background-color:mistyrose ;
+    padding: 40px;
+    border-radius: 16px;   
 
+}   
+.css-containter{
+    background-color:azure ;
+    padding: 40px;
+    width: 364px;
+    border-radius: 16px;
+}
+.js-containter{
+    background-color:beige ;
+    padding: 40px;
+    width: 364px;
+    border-radius: 16px;
+}
+.tar-lower-sec h3{
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 24px;
+    padding: 10px;
+    text-align: left;
+    
+}
+.tar-lower-sec p{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+
+}
+a{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.anchor{
+   margin-top: 10px;
+}
 
