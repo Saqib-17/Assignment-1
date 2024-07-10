@@ -21,6 +21,7 @@ body{
     font-weight: normal;
     text-align: left;
     margin-right:9px ;
+    opacity: 70%;
 }
 .head2{
     text-align: left;
@@ -29,6 +30,7 @@ body{
     color:#0D1321;
     margin: 24px 72px;
     margin-right:87px ;
+    opacity: 70%;
 }
 .card{
     display: flex;
@@ -51,7 +53,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;  
-    margin-top: 131px; 
+    margin-top: 100px; 
 }
 .herobg{
     width: 240px;
@@ -108,9 +110,11 @@ body{
 }
 .sec-btn{
     font-size: 20px;
-    font-weight: normal;
+    font-weight: 600;
     padding:12px 20px;
     background-color: white;
+    opacity: 70%;
+    font-family: "Azeret Mono", monospace;
 }
 .card2{
     margin: 48px;
@@ -128,6 +132,7 @@ body{
     text-align: center;
     margin: 0px 47px 48px 24px;
     padding: 50px;
+    opacity: 70%;
     
 }
 
@@ -138,6 +143,7 @@ body{
     justify-content: center;
     padding: 32px;
     margin-top: 48px;
+    border-radius: 16px;
 }
 iframe{
     border-radius: 16px;
@@ -185,28 +191,28 @@ iframe{
     padding: 40px;
     width: 364px;
     border-radius: 16px;
+
+   
 }
 .tar-lower-sec h3{
     font-size: 24px;
     font-weight: 900;
     margin-top: 24px;
-    padding: 10px;
     text-align: left;
+    margin-bottom: 8px;
     
 }
-.tar-lower-sec p{
-    font-size: 16px;
-    font-weight: normal;
-    text-align: left;
-
+small{
+    opacity: 70%;
 }
 a{
     font-size: 16px;
     font-weight: bold;
     text-align: left;
+    color: #0D1321;
 }
 .anchor{
-   margin-top: 10px;
+   margin-top: 24px;
 }
 /* Support Section */
 .sup{
@@ -257,17 +263,17 @@ a{
     margin-top: 24px;
     width: 533px;
     height: 50px;
+    font-family: "Azeret Mono", monospace;
   
 }
-.sup button {
-    padding:20px;
-    border: none;
-    border-radius: 8px;
-    background-color: white;
-    color: black;
-    font-size: 20px;
+.sub {
     width: 120px;
-    height: 57px;
-    margin-top: 24px;
-   
+    height: 60px;
+    margin-top:24px ;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    font-family: "Azeret Mono", monospace;
+
 }
