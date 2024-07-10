@@ -121,16 +121,21 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 .card2{
-    margin: 48px;
+    margin-left: 230px;
+    margin-right: 140px;
     padding: 10.5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
+    padding: 10px 100px 10px 130px;
 
 }
 .description2{
-    width:477px ;
-    height:219px;
+    /* width:477px ;
+    height:219px; */
     text-align: left;
+    
+
+    
 }
 .sec01-des{
     text-align: center;
