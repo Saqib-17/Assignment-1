@@ -42,7 +42,7 @@ body{
    
 }
 .btn{
-    margin-top: 32px;
+    /* margin-top: 32px; */
     margin-left: 70px ;
 }
 
@@ -101,7 +101,7 @@ body{
     padding: auto 47px;
 }
 .sec01{
-    margin: 80px 97px;
+    margin: 97px 97px;
     padding: 48px;
     display: flex;
     justify-content: center;
@@ -136,8 +136,7 @@ body{
 }
 .sec01-des{
     text-align: center;
-    margin: 0px 47px 48px 24px;
-    padding: 50px;
+   
     opacity: 70%;
     
 }
