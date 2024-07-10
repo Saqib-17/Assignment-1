@@ -95,7 +95,11 @@ body{
 }
 
 /* -----------------------why web section  ----------------------- */
-
+.start-sec01{
+    margin-right: 97px;
+    margin-left: 97px;
+    padding: auto 47px;
+}
 .sec01{
     margin: 80px 97px;
     padding: 48px;
@@ -104,6 +108,9 @@ body{
     flex-direction: column;
     
     
+}
+.contain-card{
+    margin: auto 97px;
 }
 .para0{
     text-align: left;
@@ -121,21 +128,11 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 .card2{
-    margin-left: 230px;
-    margin-right: 140px;
-    padding: 10.5px;
     display: flex;
-    justify-content: left;
-    padding: 10px 100px 10px 130px;
-
-}
-.description2{
-    /* width:477px ;
-    height:219px; */
-    text-align: left;
-    
-
-    
+    justify-content:space-around;
+    margin-right: 98px;
+    padding: 10.5px;
+    flex-direction: row-reverse;
 }
 .sec01-des{
     text-align: center;
